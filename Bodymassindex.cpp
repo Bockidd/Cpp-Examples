@@ -3,41 +3,41 @@
 using namespace std;
 int main() {
 
-	setlocale(LC_ALL, "Turkish");
-
-	int kilo;
-	float boy;
-	int indeks;
+int weight;
+float height;
+int index;
 
 
-	cout << "Vücut kitle endeksi hesaplama programına Hoşgeldiniz."<<endl;
+cout << "Welcome to the body mass index calculation program .." << endl;
 
-	cout << "Lütfen boyunuzu giriniz (örn: 1.55,1.85): ";
-	cin >> boy;
+cout << "Please enter your height (exp: 1.55,1.85):";
+cin >> height;
 
-	cout << "Kilonuzu giriniz (örn: 48,55): ";
-	cin >> kilo;
+cout << "Enter your weight (eg 48.55):";
+gin >> weight;
 
-	indeks = kilo / (boy * boy);
+index = weight / (height * height);
 
-	if (indeks < 18) {
-		
-		cout << "Kilonuz ideal kilonun altında";
-	}
+if (index <18) (
 
-
-	else if (indeks < 24) {
-
-		cout << "Kilonuz ideal.";
-	}
-
-	else if (indeks < 34) {
-
-		cout << "Kilonuz ideal kilonun üzerinde";
-	}
-
-	else {
-
-		cout << "Kilonuz ideal kilonun çok üzerinde";
-	}
+cout << "Your weight is below ideal weight";
 }
+
+
+else if (index <24) (
+
+cout << "Your weight is ideal.";
+}
+
+else if (index <34) (
+
+cout << "Your weight is above ideal weight";
+}
+
+else {
+
+cout << "Your weight is well above ideal weight";
+}
+}
+
+	
