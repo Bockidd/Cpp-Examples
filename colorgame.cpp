@@ -4,6 +4,7 @@ int main()
 {
 
 	string color;
+	//COLOR GAME V1.1
 	cout << "Welcome to the color game!" << endl;
 	cout << "Enter the color you want (Blue,green,red,purple,yellow or grey): " << endl;
 	cin >> color;
