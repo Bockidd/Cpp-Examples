@@ -1,33 +1,29 @@
 #include <iostream>
 using namespace std;
 #include <time.h> 
-
-
-//zar atma oyunu
-int main() {
-
-  setlocale(LC_ALL, "Turkish");
+// dice game
+int main () (
 
   int random;
   int start;
 
-  cout << "Zar atma programına hoşgeldiniz.! "<<endl;
-  cout << "Zarları atmak için 1'e basın: ";
+  cout << "Welcome to the dice roll program!" << endl;
+  cout << "Press 1 to roll the dice:";
 
   cin >> start;
 
 
 
-  if (start == 1) {
+  if (start == 1) (
 
-	  srand(time(0));
+srand (time (0));
 
-	  random = rand() % 6 + 1;
+random = rand () 6% + 1;
 
-	  cout << "Birinci zar: " << random << endl;
+cout << "Dice 1:" << random << endl;
 
 
-	  random = rand() % 6 + 1;
-	  cout << "İkinci zar: " << random;
+random = rand () 6% + 1;
+cout << "Second dice:" << random;
   }
 }
