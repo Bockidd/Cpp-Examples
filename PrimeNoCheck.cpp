@@ -1,28 +1,30 @@
- 
-#include<iostream>
+#include <iostream>
  
 using namespace std;
  
-int main()
+int main ()
 {
-  int sayi;
-  int sayac=0;
-  cout<<"BIR SAYI GIRINIZ:";
+  int number;
+  int counter = 0;
  
-  cin>>sayi;
+  cout << "ENTER A NUMBER:";
  
- for(int j=2; j<sayi; j++)
+  cin >> number;
+ 
+ for (int j = 2; j <number; j ++)
      {
-      if(sayi % j == 0)
+      if (number% j == 0)
          {
-          sayac++;
+          counter ++;
           break;
          }
      }
-  if(sayac == 0)
+ 
+  if (counter == 0)
      {
-      cout<<"ASALDIR."<<endl;
+      cout << "IS ​​ABOUT." << endl;
      }
+ 
  else
-      cout<<"ASAL DEGILDIR."<<endl;
+      cout << "NOT PRIME." << endl;
  }
