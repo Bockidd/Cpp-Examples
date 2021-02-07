@@ -2,21 +2,22 @@
 #include <locale>
 using namespace std;
 
-int main() {
+int main () (
 
-	int sayi;
-	int faktoriyel=1;
+int number;
+int factorial = 1;
 
-	cout << "Faktöriyelini hesaplamak istediğiniz sayıyı giriniz: ";
-	cin >> sayi;
+cout << "Enter the number whose factorial you want to calculate:";
+cin >> number;
 
 
-	for (int i = 2; i <= sayi; i++)
-	{
-		faktoriyel = faktoriyel * i;
-	}
+for (int i = 2; i <= number; i ++)
+{
+factorial = factorial * i;
+}
+//Numbers are sequentially multiplied with each other
 
-	cout << "Sonuç: " << faktoriyel;
+cout << "Result:" << factorial;
 
 
 }
