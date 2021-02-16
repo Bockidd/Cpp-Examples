@@ -3,7 +3,7 @@ using namespace std;
 #include <time.h> 
 // dice game
 
-int main () (
+int main () {
  
 int random;
 int start;
