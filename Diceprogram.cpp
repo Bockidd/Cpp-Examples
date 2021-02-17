@@ -17,13 +17,13 @@ if (start == 1) {
 
 srand (time (0));
 
-random = rand () 6% + 1;
+random = rand () % 6 + 1;
 //Randomly pick one of 6 numbers
     
 cout << "Dice 1:" << random << endl;
 
 
-random = rand () 6% + 1;
+random = rand () % 6 + 1;
 cout << "Second dice:" << random;
   }
 }
