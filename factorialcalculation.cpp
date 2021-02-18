@@ -2,7 +2,7 @@
 #include <locale>
 using namespace std;
 
-int main () (
+int main () {
 
 int number;
 int factorial = 1;
